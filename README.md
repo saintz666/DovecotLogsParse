@@ -1,1 +1,6 @@
 # DovecotLogsParse
+
+[Usage]
+python dovegot
+
+##
