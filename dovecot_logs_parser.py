@@ -28,7 +28,7 @@ for file in os.listdir(os.getcwd()):
 				session_data=[]
 				try:
 					if ("pop3-login:" in lines) or ("imap-login:" in lines):
-						if ("46.214.45.232" in lines) or ("176.37.68.78" in lines) or ("202.65.32.175" in lines) or ("110.173.190.68" in lines) or ("92.239.233.75" in lines):
+						if ("192.168.1.10" in lines) or ("192.168.1.50" in lines):
 							temp_sessions = lines.split(',')[3].split("=")[1]
 							temp_rip = lines.split(',')[4].split("=")[1]
 							if temp_sessions not in session_holder:
